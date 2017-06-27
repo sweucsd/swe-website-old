@@ -9,11 +9,16 @@ layout: default
 
 
     {% for event in page.events %}
-      <div class="events__row">
-          <span>{{ event.event_name }}</span>
-          <span>{{ event.event_date }}</span>
-          <span><a href="{{ event.event_url }}">RSVP</a></span>
-      </div>
+    <center>
+    <div class="events">
+        <div class="events__row">
+            <span>{{ event.event_name }}</span>
+            <span>{{ event.event_date }}</span>
+            <span><a href="{{ event.event_url }}">RSVP</a></span>
+        </div>
+    </div>
+    </center>
+
     {% endfor %}
 
 
