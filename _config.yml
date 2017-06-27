@@ -42,3 +42,7 @@ exclude:
 - Gemfile
 - Gemfile.lock
 - LICENSE
+sponsor_logos:
+- "/uploads/we_local_logo.png"
+- "/uploads/we_local_logo.png"
+- "/uploads/we_local_logo.png"
