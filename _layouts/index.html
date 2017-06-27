@@ -16,7 +16,7 @@ layout: default
                 <span>{{ event.event_name }}</span>
                 <!-- <span>{{ event.event_date }}</span> -->
                 <time>{{ event.event_date | date: "%A, %B %-d" }}</time>
-                <span><a href="{{ event.event_url }}">RSVP</a></span>
+                <span><a href="{{ event.event_url }}" target="_blank">RSVP</a></span>
             </div>
         {% endfor %}
     </div>
