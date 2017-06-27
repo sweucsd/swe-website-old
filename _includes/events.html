@@ -1,7 +1,15 @@
 <center>
 <div class="events">
 
+  {% for event in events %}
     <div class="events__row">
+        <span>{{ event.event_name }}</span>
+        <span>{{ event.event_date }}</span>
+        <span><a href="{{ event.event_url }}">RSVP</a></span>
+    </div>
+  {% endfor %}
+
+    <!-- <div class="events__row">
         <span>SWE Outreach Banquet</span>
         <span>04.15/2017</span>
         <span><a href="#">RSVP</a></span>
@@ -32,7 +40,7 @@
         <span>SWE Outreach Banquet</span>
         <span>04.15/2017</span>
         <span><a href="#">RSVP</a></span>
-    </div>
+    </div> -->
 
 
 
