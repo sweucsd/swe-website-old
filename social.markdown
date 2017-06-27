@@ -13,6 +13,10 @@ events:
   url: url
   intro: intro
   image: "/uploads/19478546_1450669518289282_152614270_o.jpg"
+- title: some title im adding on siteleaf on the google mac
+  url: some title im adding on siteleaf on the google mac url
+  intro: some title im adding on siteleaf on the google mac intro
+  image: "/uploads/Screen%20Shot%202017-06-13%20at%201.03.53%20PM.png"
 layout: social
 ---
 
