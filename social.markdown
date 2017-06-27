@@ -9,5 +9,9 @@ events:
   title: some title
   intro: intrp intro intro intro
   url: someurl
+- title: title
+  url: url
+  intro: intro
+  image: "/uploads/19478546_1450669518289282_152614270_o.jpg"
 ---
 
