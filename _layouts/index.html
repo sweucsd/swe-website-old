@@ -6,9 +6,9 @@ layout: default
     <h1 class="main__title">{{ page.subtitle }}</h1>
 
 
-    
 
-    {% for event in events %}
+
+    {% for event in page.events %}
       <div class="events__row">
           <span>{{ event.event_name }}</span>
           <span>{{ event.event_date }}</span>
