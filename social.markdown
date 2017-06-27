@@ -13,5 +13,6 @@ events:
   url: url
   intro: intro
   image: "/uploads/19478546_1450669518289282_152614270_o.jpg"
+layout: social
 ---
 
