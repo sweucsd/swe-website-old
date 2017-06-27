@@ -14,7 +14,8 @@ layout: default
         {% for event in page.events %}
             <div class="events__row">
                 <span>{{ event.event_name }}</span>
-                <span>{{ event.event_date }}</span>
+                <!-- <span>{{ event.event_date }}</span> -->
+                <time>{{ event.event_date }}</time>
                 <span><a href="{{ event.event_url }}">RSVP</a></span>
             </div>
         {% endfor %}
