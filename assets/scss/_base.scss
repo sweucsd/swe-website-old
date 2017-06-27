@@ -1,0 +1,657 @@
+body {
+	// background: white;
+	background: white;
+	font: {
+		family: $sf;
+		size: 100%;
+	}
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	line-height: 1.4;
+	color: $blue;
+}
+
+$padding--horizontal: 5%;
+$padding--vertical: 2rem;
+
+.section {
+	padding: $padding--vertical $padding--horizontal;
+}
+
+@keyframes blink {
+	0% {
+		color: hotpink;
+	}
+
+	25% {
+		color: blue;
+	}
+
+	50% {
+		color: hotpink;
+	}
+
+	75% {
+		color: blue;
+	}
+
+	100% {
+		color: hotpink;
+	}
+}
+
+@keyframes border-blink {
+	0% {
+		border-color: hotpink;
+	}
+
+	25% {
+		border-color: red;
+	}
+
+	50% {
+		border-color: #bada55;
+	}
+
+	75% {
+		border-color: #bada55;
+	}
+
+	100% {
+		border-color: hotpink;
+	}
+}
+
+// new shit from here on
+
+.hero {
+	// background: green;
+	min-height: 100vh;
+	width: 100%;
+	background: url(../img/hero-bg.png) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+
+	&__content {
+		// width: 97.5%;
+		width: 99%;
+		padding: 3rem 1.2rem;
+		background: rgba(white, 0.95);
+		border: 10.5px solid $blue;
+		// height: 45%;
+
+		display: flex;
+		flex-flow: column wrap;
+		justify-content: space-around;
+
+		@include small {
+			padding: 2.5rem;
+		}
+
+		@include medium {
+			width: 65%;
+			padding: 4rem;
+		}
+
+		h1 {
+			font-family: $sf;
+			text-align: center;
+			font-size: 2rem;
+			color: $dark-blue;
+
+			@include medium {
+				font-size: 3rem;
+			}
+		}
+
+		img {
+			margin: 2rem auto 2rem;
+			// text-align: center;
+			display: block;
+			width: 120px;
+		}
+
+		p {
+			text-align: center;
+			line-height: 1.6;
+
+			@include large {
+				padding: 0 6.5%;
+			}
+		}
+	}
+}
+
+.tabs {
+	padding-top: 0;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+
+	position: relative;
+	top: -1.4rem;
+
+	@include small {
+		top: -2.3rem;
+	}
+
+	span {
+		display: block;
+		// width: 20%;
+		padding: 0.825rem;
+		// background: rgba($tab-purple, 0.9);
+		// background: lighten($yellow, 5%);
+		// border-bottom: 2px solid $tab-purple;
+		text-align: center;
+		background: $tab-purple;
+
+		@include small {
+			padding: 1.2rem 1.6rem;
+		}
+
+		> a {
+			color: white;
+			font-size: 0.825rem;
+
+			@include small {
+				font-size: 1.25rem;
+			}
+		}
+
+		@include medium {
+			padding: 2rem 5vw;
+			width: 25.5%;
+		}
+
+		@include large {
+			width: 27.5%;
+		}
+	}
+}
+
+.main {
+	// padding-top: 2.5rem;
+	padding-bottom: 5rem;
+
+	@include medium {
+		// padding-top: 2.5rem;
+		padding-bottom: 2.5rem;
+	}
+
+	&__title {
+		font: {
+			family: $futura;
+			size: 2.5rem;
+		}
+		text-align: center;
+		color: $gray;
+		text-transform: uppercase;
+
+		margin-bottom: 1.75rem;
+		// margin-bottom: 1.75rem;
+
+		@include medium {
+			font-size: 3rem;
+		}
+	}
+
+	.events {
+		padding: 0.5rem;
+		border: 2px solid $yellow;
+		display: inline-block;
+		width: 90%;
+		margin: 0 auto;
+		text-align: center;
+		margin-top: 1.5rem;
+
+		@include small {
+			padding: 2rem;
+		}
+
+		@include medium {
+			width: 85%;
+		}
+
+		&__row {
+			display: flex;
+			flex-flow: row wrap;
+			justify-content: space-around;
+
+			margin-bottom: 1.25rem;
+
+			color: $blue;
+
+			> * {
+				font-size: 0.825rem;
+				width: 33.33%;
+				padding: 0.5rem;
+
+				@include medium {
+					padding: 0.5rem 2rem;
+					font-size: 1.125rem;
+				}
+			}
+
+			a {
+				border-bottom: 1px solid $off-white;
+				padding: 0.5rem 1.25rem;
+
+				padding: 0.5rem;
+				width: 33.33%;
+
+				@include medium {
+					padding: 0.5rem 2rem;
+
+				}
+
+			}
+		}
+	}
+
+}
+
+.beyond {
+	padding: 2.5rem 0;
+	background: $baby-pink;
+
+	h3 {
+		font-size: 2.25rem;
+		text-align: center;
+
+		@include small {
+			font-size: 3.0rem;
+		}
+	}
+
+	h4 {
+		font-size: 1.35rem;
+		text-align: center;
+
+		@include small {
+			font-size: 2rem;
+		}
+	}
+
+	.beyond__tabs {
+		padding-top: 2.5rem;
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-around;
+
+		// position: relative;
+		// top: -2.3rem;
+
+		span {
+			display: block;
+			// width: 33%;
+			// padding: 1.75rem;
+			// background: white;
+			// text-decoration: underline;
+			text-align: center;
+			// color: $dark-purple;
+
+			> a {
+				font-size: 0.9725rem;
+				padding-bottom: 0.25rem;
+				border-bottom: 1px solid rgba(blue, 0.6);
+
+				@include medium {
+					font-size: 1.65rem;
+				}
+			}
+
+			@include medium {
+				padding: 2rem 5vw;
+				width: 25.5%;
+			}
+
+			@include large {
+				width: 27.5%;
+			}
+		}
+	}
+}
+
+.footer {
+
+	h2 {
+		font: {
+			family: $sf;
+			size: 2rem;
+		}
+		text-align: center;
+
+		margin-bottom: 3.25rem;
+	}
+
+	figure {
+		display: flex;
+		flex-flow: row no-wrap;
+		justify-content: space-around;
+		width: 80%;
+		// padding: 0 7.5%;
+		margin: 0 auto;
+
+		a, img {
+			margin-bottom: 2.5rem;
+			width: 35%;
+			height: 35%;
+
+			@include medium {
+				width: auto;
+				transform: scale(0.65);
+
+			}
+		}
+	}
+
+	nav {
+		// position:
+		display: flex;
+		flex-flow: row no-wrap;
+		justify-content: space-around;
+
+		@include medium {
+			justify-content: flex-end;
+		}
+
+		a {
+			padding: 0;
+
+			@include small {
+				padding: 0 1.5rem;
+			}
+		}
+	}
+}
+
+
+// Lead
+
+.lead {
+	width: 85%;
+	line-height: 1.6;
+	text-align: center;
+	margin: 0 auto;
+	padding: 2rem;
+	// border: 1px solid $purple;
+	font-size: 1.25rem;
+	color: #4D547F;
+	// color: $blue;
+
+	@include medium {
+		width: 65%;
+		font-size: 1.625rem;
+	}
+
+	&.subtitle {
+		padding-top: 0;
+		margin-bottom: 2rem;
+	}
+}
+
+.team {
+
+	.team-container {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-around;
+	}
+
+	.team__module {
+		// width: 40%;
+		margin-bottom: 2.25rem;
+		// flex-basis: 20%;
+
+		@include medium {
+			// width: 26.5%;
+		}
+
+		@include large {
+			// width: 50%;
+		}
+
+		img {
+			border-radius: 50%;
+			margin-bottom: 1rem;
+			width: 65%;
+			// padding: 0 2rem;
+		}
+
+		h3 {
+			text-align: center;
+			font-size: 1.325rem;
+			margin-bottom: 0.5rem;
+		}
+
+		p {
+			text-align: center;
+			font-size: 1rem;
+
+		}
+
+	}
+}
+
+
+// cal
+
+.cal {
+	margin: 4.5rem auto;
+	padding: 0 17.5%;
+}
+
+.full-container {
+	text-align: center;
+	margin: 2rem 0 5.75rem;
+	.full {
+		text-align: center;
+		font-size: 1.825rem;
+		color: $tab-purple;
+		// margin: 2rem 0;
+		// text-decoration: underline;
+		padding: 0.5rem;
+		border-bottom: 1px solid $tab-purple;
+	}
+}
+
+
+
+.module-container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+
+	.module {
+		width: 85%;
+		margin-bottom: 2rem;
+
+		@include medium {
+			width: 40%;
+		}
+
+		@include large {
+			width: 30%;
+		}
+
+		img {
+			margin-bottom: 1.25rem;
+			// padding: 0.5rem;
+			width: 80%;
+			// border: 1px solid $light-purple;
+		}
+
+
+		h3 {
+			text-align: center;
+			font-size: 1.525rem;
+			color: $blue;
+		}
+
+		p {
+			text-align: center;
+			font-size: 1.125rem;
+			color: #666;
+
+		}
+	}
+}
+
+form {
+	input, textarea {
+		display: block;
+		width: 85%;
+		max-width: 25rem;
+		text-align: center;
+		margin: 0 auto 1.5rem;
+	}
+
+	input {
+
+	}
+
+	textarea {
+
+	}
+
+	input[type="submit"] {
+		background: $tab-purple;
+		color: white;
+	}
+}
+
+
+// nav
+
+header.header {
+	background: transparent;
+	padding: 1.5rem 0;
+
+	position: fixed;
+	width: 100%;
+
+	@include small {
+		background: white;
+	}
+
+	nav {
+		display: flex;
+		justify-content: space-around;
+		flex-flow: column wrap;
+		align-items: center;
+		// display: none;
+
+
+		@include small {
+			flex-flow: row wrap;
+			display: flex;
+		}
+
+		&.close {
+			display: none;
+		}
+
+		&.open {
+			display: flex;
+		}
+
+		a {
+			color: $tab-purple;
+
+			padding: 1rem;
+
+			@include small {
+				padding: 0;
+			}
+		}
+	}
+}
+
+// header other
+a.menu-link {
+/*   	    float: right; */
+		    display: block;
+		    padding: 1em;
+		}
+		nav[role=navigation] {
+			clear: both;
+			-webkit-transition: all 0.3s ease-out;
+			-moz-transition: all 0.3s ease-out;
+			-ms-transition: all 0.3s ease-out;
+			-o-transition: all 0.3s ease-out;
+			transition: all 0.3s ease-out;
+		}
+		.js nav[role=navigation] {
+			overflow: hidden;
+			max-height: 0;
+		}
+		nav[role=navigation].active {
+			// max-height: 15em;
+			max-height: none;
+		}
+		nav[role=navigation] ul {
+			margin: 0;
+			padding: 0;
+			// border-top: 1px solid #808080;
+		}
+		nav[role=navigation] li a {
+			display: block;
+			padding: 0.45em;
+			// border-bottom: 1px solid #808080;
+		}
+
+		// @media screen and (min-width: 48.25em) {
+		@media screen and (min-width: 968px) {
+			a.menu-link {
+			   display: none;
+			}
+			.js nav[role=navigation] {
+				max-height: none;
+			}
+			nav[role=navigation] ul {
+				margin: 0 0 0 -0.25em;
+				border: 0;
+			}
+
+			nav[role=navigation]  li {
+				display: inline-block;
+				margin: 0 0.25em;
+			}
+			nav[role=navigation] li a {
+				border: 0;
+			}
+		}
+
+nav#menu {
+
+	ul {
+		display: flex;
+	    flex-flow: row wrap;
+	    justify-content: center;
+		list-style: none;
+
+		@include max-small {
+			flex-flow: column wrap;
+
+		}
+	}
+
+	ul li {
+		text-align: center;
+		padding: 1rem;
+
+		// @include max-small {
+		@media screen and (max-width: 968px) {
+			width: 100%;
+			padding: 0.2rem;
+		}
+
+	}
+}
