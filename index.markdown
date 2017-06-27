@@ -13,6 +13,7 @@ events:
 - event_name: asodiamsdoias
   event_date: 2017-06-28 00:00:00 Z
   event_url: sadasdasdasd
+layout: index
 ---
 
 here rehr ehre rher ehr ehr e
