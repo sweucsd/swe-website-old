@@ -10,16 +10,16 @@ layout: default
     </p>
 
     <div class="module-container">
-        {% for item in page.events %}
+        {% for event in events %}
         <div class="module">
             <center>
                 <!-- <img src="{{ site.baseurl }}/assets/img/meal.png" alt=""> -->
-                <img src="{{ page.events.item.image }}" alt="">
+                <img src="{{ event.image }}" alt="">
             </center>
 
-            <h3>{{ page.events.title }}</h3>
+            <h3>{{ event.title }}</h3>
             <p>
-                {{ page.events.intro }}
+                {{ event.intro }}
             </p>
         </div>
         {% endfor %}
