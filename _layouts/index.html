@@ -15,7 +15,7 @@ layout: default
             <div class="events__row">
                 <span>{{ event.event_name }}</span>
                 <!-- <span>{{ event.event_date }}</span> -->
-                <time>{{ event.event_date | date_to_long_string }}</time>
+                <time>{{ event.event_date | date: "%A, %B %-d" }}</time>
                 <span><a href="{{ event.event_url }}">RSVP</a></span>
             </div>
         {% endfor %}
