@@ -10,49 +10,19 @@ title: Social
     </p>
 
     <div class="module-container">
+        {% for item in page.events %}
         <div class="module">
             <center>
-                <img src="{{ site.baseurl }}/assets/img/meal.png" alt="">
+                <!-- <img src="{{ site.baseurl }}/assets/img/meal.png" alt=""> -->
+                <img src="{{ page.events.image }}" alt="">
             </center>
 
-            <h3>Cooking Social</h3>
+            <h3>{{ page.events.title }}</h3>
             <p>
-                Lorem ipsum dolor sit amet, consectetur.
+                {{ page.events.intro }}
             </p>
         </div>
-
-        <div class="module">
-            <center>
-                <img src="{{ site.baseurl }}/assets/img/meal.png" alt="">
-            </center>
-
-            <h3>Cooking Social</h3>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur.
-            </p>
-        </div>
-
-        <div class="module">
-            <center>
-                <img src="{{ site.baseurl }}/assets/img/meal.png" alt="">
-            </center>
-
-            <h3>Cooking Social</h3>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur.
-            </p>
-        </div>
-
-        <div class="module">
-            <center>
-                <img src="{{ site.baseurl }}/assets/img/meal.png" alt="">
-            </center>
-
-            <h3>Cooking Social</h3>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur.
-            </p>
-        </div>
+        {% endfor %}
 
 
     </div>
@@ -192,7 +162,7 @@ title: Social
             </p>
         </div>
 
-    </div>
+    </div> -->
 
     <p class="full-container">
         <a href="#" class="full">Full Calendar</a>
