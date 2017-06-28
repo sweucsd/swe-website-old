@@ -3,7 +3,7 @@
 
     {% for event in index.events %}
         <div class="events__row">
-            <span>{{ event.event_name }}</span>
+            <span>{{ event.event_name }} - if this comes up then it worked</span>
             <!-- <span>{{ event.event_date }}</span> -->
             <time>{{ event.event_date | date: "%A, %B %-d" }}</time>
             <span><a href="{{ event.event_url }}" target="_blank">RSVP</a></span>
