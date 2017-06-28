@@ -26,6 +26,10 @@ officers:
   officer_name: dfsdfsdfds
   officer_title: fdsfdsfsdfds
   officer_url: fdsfsdfsdfsdf
+- officer_image: "/uploads/face.jpg"
+  officer_name: name
+  officer_title: title
+  officer_url: sajdisa
 layout: about
 ---
 
