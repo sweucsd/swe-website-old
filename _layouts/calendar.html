@@ -7,18 +7,7 @@ layout: default
 
     {% comment %}{% include events.html %} {% endcomment %}
 
-    <center>
-    <div class="events">
-        {% for event in site.home.events %}
-            <div class="events__row">
-                <span>{{ event.event_name }}</span>
-                <!-- <span>{{ event.event_date }}</span> -->
-                <time>{{ event.event_date | date: "%A, %B %-d" }}</time>
-                <span><a href="{{ event.event_url }}" target="_blank">RSVP</a></span>
-            </div>
-        {% endfor %}
-    </div>
-    </center>
+    <h1>it came {{ about.blurb }}</h1>
 
     <hr>
 
