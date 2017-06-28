@@ -4,7 +4,22 @@ layout: default
 
 <main class="section main">
     <h1 class="main__title">{{ page.subtitle }}</h1>
-    {% include events.html %}
+
+    {% comment %}{% include events.html %} {% endcomment %}
+
+    <center>
+    <div class="events">
+        {% for event in home.events %}
+            <div class="events__row">
+                <span>{{ event.event_name }}</span>
+                <!-- <span>{{ event.event_date }}</span> -->
+                <time>{{ event.event_date | date: "%A, %B %-d" }}</time>
+                <span><a href="{{ event.event_url }}" target="_blank">RSVP</a></span>
+            </div>
+        {% endfor %}
+    </div>
+    </center>
+
     <hr>
 
     <img src="{{ site.baseurl }}/assets/img/cal.png" alt="" class="cal">
