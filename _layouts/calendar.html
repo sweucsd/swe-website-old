@@ -3,30 +3,9 @@ layout: default
 ---
 
 <main class="section main">
-    <h1 class="main__title">About SWE</h1>
+    <h1 class="main__title">{{ page.subtitle }}</h1>
+    {% include events.html %}
+    <hr>
 
-    <p class="lead">
-        I launched Typewolf as a side project in June of 2013. Working as a designer, I was always frustrated by the lack of good resources for choosing fonts for design projects. Seeing type samples set in “the quick brown fox jumps over the lazy dog” isn’t very useful when it comes to web design—seeing how real type performs on actual websites is much more helpful.
-    </p>
+    <img src="{{ site.baseurl }}/assets/img/cal.png" alt="" class="cal">
 </main>
-
-<section class="section team">
-    <h1 class="main__title team__title">SWE Officers</h1>
-
-    <div class="team-container">
-
-        {% for officer in page.officers %}
-
-        <article class="team__module">
-            <center>
-                <img src="{{ officer.officer_image }}" alt="">
-            </center>
-            <h3>{{ officer.officer_name }}</h3>
-            <p>{{ officer.officer_title }}</p>
-        </article>
-
-        {% endfor %}
-
-
-    </div>
-</section>
