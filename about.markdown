@@ -1,10 +1,10 @@
 ---
 title: About
 date: 2017-06-27 22:40:00 Z
-intro: intro text
 subtitle_1: About SWE
-blurb: blurb text
+intro: intro text
 subtitle_2: SWE Officers
+blurb: blurb text
 officers:
 - officer_image: "/uploads/face.jpg"
   officer_name: llucy lopez
