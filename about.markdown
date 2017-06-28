@@ -14,5 +14,6 @@ officers:
   officer_name: another one
   officer_title: 
   officer_url: 
+layout: about
 ---
 
