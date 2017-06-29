@@ -11,7 +11,7 @@ layout: default
 
     {% comment %}{% for event in site.index.events %} {% endcomment %}
     <h1>plz</h1>
-    {% for event in {{ site.pages | where: "title", "home" }}.events %}
+    {% for event in {{ site.pages | where: "title", "Home" }}.events %}
         <div class="events__row">
             <span>{{ event.event_name }} - if this comes up then it worked</span>
             <!-- <span>{{ event.event_date }}</span> -->
