@@ -444,6 +444,20 @@ $padding--vertical: 2rem;
 
 // cal
 
+.calendar-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	//copied from call
+	margin: 4.5rem auto;
+	padding: 0 17.5%;
+
+	iframe {
+		width: 100%;
+	}
+}
+
 .cal {
 	margin: 4.5rem auto;
 	padding: 0 17.5%;
