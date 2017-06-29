@@ -1,7 +1,7 @@
 ---
 title: Contact
 ---
-
+<!--
 <section class="hero section">
     <article class="hero__content">
         <h1>Contact Us</h1>
@@ -15,17 +15,18 @@ title: Contact
     <span><a href="{{ site.baseurl }}/social">Social</a></span>
     <span><a href="{{ site.baseurl }}/professional">Professional</a></span>
     <span><a href="{{ site.baseurl }}/outreach">Outreach</a></span>
-</section>
+</section> -->
 
 <main class="section main">
     <h1 class="main__title">Contact SWE</h1>
 
-    <form action="">
-        <input type="text" name="name" placeholder="Person McPerson">
-        <input type="email" name="name" placeholder="buttercup@swe.com">
-        <input type="phone" name="name" placeholder="+1-666-666-666">
-        <textarea name="message" placeholder="somerhing somethidnfs"></textarea>
-        <input type="submit"></button>
+    <form action="https://formspree.io/prabhav@studio1346.com"
+      method="POST">
+        <input type="text" name="name" placeholder="Person McPerson" required>
+        <input type="email" name="email" placeholder="buttercup@swe.com" required>
+        <input type="phone" name="phone" placeholder="+1-666-666-666">
+        <textarea name="message" placeholder="somerhing somethidnfs" required></textarea>
+        <input type="submit" value="Send"></button>
     </form>
 
 </main>

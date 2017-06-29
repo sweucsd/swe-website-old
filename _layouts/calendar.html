@@ -9,6 +9,7 @@ layout: default
 
     <h1>plz</h1>
     {% capture boo %}{{ site.pages | where: "title", "Home" }}{% endcapture %}
+
     {% for event in boo.events %}
         <div class="events__row">
             <span>{{ event.event_name }} - if this comes up then it worked</span>
