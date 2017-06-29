@@ -7,10 +7,11 @@ layout: default
 
     {% include events.html %}
 
-    <h1>test this shit out{{ site.pages | where: "title", "home" }}</h1>
 
-    {% comment %}
-    {% for event in site.index.events %}
+
+    {% comment %}{% for event in site.index.events %} {% endcomment %}
+    <h1>plz</h1>
+    {% for event in {{ site.pages | where: "title", "home" }}.events %}
         <div class="events__row">
             <span>{{ event.event_name }} - if this comes up then it worked</span>
             <!-- <span>{{ event.event_date }}</span> -->
@@ -18,7 +19,6 @@ layout: default
             <span><a href="{{ event.event_url }}" target="_blank">RSVP</a></span>
         </div>
     {% endfor %}
-    {% endcomment %}
 
     <hr>
 
