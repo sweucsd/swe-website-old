@@ -8,7 +8,8 @@ layout: default
      <marquee><h1>sadasdsadasd</h1></marquee>
 
     <h1>plz</h1>
-    {% for event in {{ site.pages | where: "title", "Home" }}.events %}
+    {% capture boo %}{{ site.pages | where: "title", "Home" }}{% endcapture %}
+    {% for event in boo.events %}
         <div class="events__row">
             <span>{{ event.event_name }} - if this comes up then it worked</span>
             <!-- <span>{{ event.event_date }}</span> -->
