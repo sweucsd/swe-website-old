@@ -5,9 +5,7 @@ layout: default
 <main class="section main">
     <h1 class="main__title">{{ page.subtitle }}</h1>
 
-    {% include events.html %}
-
-     <marquee><h1>sadasdsadasd</h1></marquee>    
+     <marquee><h1>sadasdsadasd</h1></marquee>
 
     <h1>plz</h1>
     {% for event in {{ site.pages | where: "title", "Home" }}.events %}
