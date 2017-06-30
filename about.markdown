@@ -1,7 +1,7 @@
 ---
 title: About
 date: 2017-06-27 22:40:00 Z
-subtitle_1: About SWEsssss
+subtitle_1: About SWE
 intro: intro text for about its in this page yeah
 subtitle_2: SWE Officersssss
 blurb: blurb textss
