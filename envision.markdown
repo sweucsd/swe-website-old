@@ -1,7 +1,7 @@
 ---
 title: Envision
 date: 2017-06-29 22:06:00 Z
-position: 4
+position: 3
 intro: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ut odio nec mauris
   gravida vehicula. Proin eget magna non felis interdum dictum vitae sit amet eros. '
 subtitle: SWE Envision
