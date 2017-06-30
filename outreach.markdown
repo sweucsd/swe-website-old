@@ -13,6 +13,12 @@ events:
   title: titiiiiitle
   intro: itroooooo
   url: ulllll
+- image: 
+  title: 
+  intro: 
+  url: 
+blurb: Lorem ipsum dolor sit amet, consectetur. Lorem ipsum dolor sit amet, consectetur.
+  Lorem ipsum dolor sit amet, consectetur. Lorem ipsum dolor sit amet, consectetur.
 layout: social
 ---
 
