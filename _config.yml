@@ -47,9 +47,9 @@ sponsor_logos:
 - "/uploads/we_local_logo.png"
 - "/uploads/we_local_logo.png"
 events:
-- event_name: title of evebts
+- event_name: Sample Event Title
   event_date: 2017-06-20 18:11:00.000000000 Z
-  event_url: urllll
-- event_name: some name yeah
-  event_url: urlllll
+  event_url: http://swe.ucsd.edu
+- event_name: Sample Event Title
   event_date: 2017-06-14 00:00:00.000000000 Z
+  event_url: http://swe.ucsd.edu
