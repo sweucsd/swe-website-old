@@ -53,3 +53,9 @@ events:
 - event_name: Sample Event Title
   event_date: 2017-06-14 00:00:00.000000000 Z
   event_url: http://swe.ucsd.edu
+- event_name: Sample Event Title
+  event_date: 2017-06-28 00:00:00.000000000 Z
+  event_url: http://swe.ucsd.edu
+- event_name: Sample Event Title
+  event_date: 2017-06-27 00:00:00.000000000 Z
+  event_url: http://swe.ucsd.edu
