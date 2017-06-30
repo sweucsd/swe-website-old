@@ -1,6 +1,7 @@
 ---
 title: About
 date: 2017-06-27 22:40:00 Z
+position: 2
 subtitle_1: About SWE
 intro: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ut odio nec mauris
   gravida vehicula. Proin eget magna non felis interdum dictum vitae sit amet eros. '
