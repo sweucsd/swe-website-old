@@ -6,14 +6,14 @@ intro: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ut odio nec 
   gravida vehicula. Proin eget magna non felis interdum dictum vitae sit amet eros. '
 subtitle: SWE Envision
 events:
-- image: "/uploads/face.jpg"
-  title: asnoasndos
-  intro: sanduasndanufdf
-  url: hduhasouhdsouahfdsf
-- image: "/uploads/we_local_logo.png"
-  title: dsfsdfsd
-  intro: g
-  gg: fsdffagsdfgdgsdg
+- image: "/uploads/meal.png"
+  title: Sample event title
+  intro: intro text
+  url: http://swe.ucsd.edu
+- image: "/uploads/meal.png"
+  title: sample event title
+  intro: 'intro text here '
+  url: "/"
 layout: social
 ---
 
