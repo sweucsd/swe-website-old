@@ -4,31 +4,32 @@ date: 2017-06-27 22:40:00 Z
 subtitle_1: About SWE
 intro: Enter intro text here
 subtitle_2: SWE Officers
-blurb: blurb textss
+blurb: Enter blurb text here Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  Ut ut odio nec mauris gravida vehicula. Proin eget magna non felis interdum dictum.
 officers:
 - officer_image: "/uploads/face.jpg"
-  officer_name: llucy lopez
-  officer_title: cheif preisdinie
-  officer_url: some url
+  officer_name: Lucero Lopez
+  officer_title: President
+  officer_url: "#"
 - officer_image: "/uploads/face.jpg"
-  officer_name: another one
-  officer_title: other titel
+  officer_name: Lucero Lopez
+  officer_title: President
   officer_url: asnduasfudsf
 - officer_image: "/uploads/face.jpg"
-  officer_name: asdasfdfs
-  officer_title: dsfdsfdsfsd
+  officer_name: Lucero Lopez
+  officer_title: President
   officer_url: dsfdsfdsfd
 - officer_image: "/uploads/face.jpg"
-  officer_name: dsfsdfsd
-  officer_title: dsfsdfs
+  officer_name: Lucero Lopez
+  officer_title: President
   officer_url: sdfsfsdf
 - officer_image: "/uploads/face.jpg"
-  officer_name: dfsdfsdfds
-  officer_title: fdsfdsfsdfds
+  officer_name: Lucero Lopez
+  officer_title: President
   officer_url: fdsfsdfsdfsdf
 - officer_image: "/uploads/face.jpg"
-  officer_name: name
-  officer_title: title
+  officer_name: Lucero Lopez
+  officer_title: President
   officer_url: sajdisa
 layout: about
 ---
