@@ -2,7 +2,8 @@
 title: About
 date: 2017-06-27 22:40:00 Z
 subtitle_1: About SWE
-intro: Enter intro text here
+intro: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ut odio nec mauris
+  gravida vehicula. Proin eget magna non felis interdum dictum vitae sit amet eros. '
 subtitle_2: SWE Officers
 blurb: Enter blurb text here Lorem ipsum dolor sit amet, consectetur adipiscing elit.
   Ut ut odio nec mauris gravida vehicula. Proin eget magna non felis interdum dictum.
