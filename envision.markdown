@@ -14,7 +14,7 @@ events:
   title: heading text
   intro: 'intro text here '
   url: "/"
-- image: "/uploads/meal.png"
+- image: "/uploads/hole.jpg"
   title: heading text
   intro: intro text
   url: "/"
