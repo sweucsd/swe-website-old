@@ -2,8 +2,8 @@
 title: Envision
 date: 2017-06-29 22:06:00 Z
 position: 3
-intro: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ut odio nec mauris
-  gravida vehicula. Proin eget magna non felis interdum dictum vitae sit amet eros. '
+intro: Envision is a free all-day conference held at UC San Diego that exposes high
+  school girls to career possibilities in science and technology.
 subtitle: SWE Envision
 events:
 - image: "/uploads/meal.png"
