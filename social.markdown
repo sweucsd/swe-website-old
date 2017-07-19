@@ -2,11 +2,11 @@
 title: Social
 date: 2017-06-27 01:33:00 Z
 position: 4
-intro: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ut odio nec mauris
-  gravida vehicula. Proin eget magna non felis interdum dictum vitae sit amet eros. '
+intro: Come join the women of UC San Diego SWE to meet new friends, take a break from
+  your classes, and just have a good time.
 subtitle: Upcoming Social Events
-blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ut odio nec mauris
-  gravida vehicula. Proin eget magna non felis interdum dictum vitae sit amet eros. '
+blurb: UCSD SWE is currently on summer vacation. Please check back in Fall to find
+  events.
 events:
 - title: Event Title
   intro: event intro goes here
