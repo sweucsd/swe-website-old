@@ -3,14 +3,18 @@ title: About
 date: 2017-06-27 22:40:00 Z
 position: 1
 intro: 'UC San Diego Society of Women Engineers informs, nurtures, and encourages
-  women to attain high levels of education and professional achievement. Its members
+  women to attain high levels of education and professional achievement. Our members
   serve as role models to pre-college and engineering students.
 
 '
 subtitle_1: About SWE
-blurb: |
-  UC San Diego Society of Women Engineers is a diverse group of passionate young engineers excited about women in STEM. Through outreach to K-12 students, socials with other female engineers, networking workshops with industry, and technical teams, UCSD SWE provides women engineers with a welcoming environment to grow professionally and academically.
-  Social:
+blurb: 'UC San Diego Society of Women Engineers is a diverse group of passionate young
+  engineers excited about women in STEM. Through outreach to K-12 students, socials
+  with other female engineers, networking workshops with industry, and technical teams,
+  UCSD SWE provides women engineers with a welcoming environment to grow professionally
+  and academically.
+
+'
 subtitle_2: SWE Officers
 officers:
 - officer_image: "/uploads/19478546_1450669518289282_152614270_o.jpg"
