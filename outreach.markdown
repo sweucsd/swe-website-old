@@ -3,24 +3,16 @@ title: Outreach
 date: 2017-06-29 22:18:00 Z
 position: 6
 subtitle: Upcoming Outreach Events
-blurb: 'UCSD SWE is currently on summer vacation. Please check back in Fall to find
-  events.
+blurb: 'We are currently planning outreach events but do not have plans as of yet.
+  Please visit our Envision page to learn about our annual outreach.
 
 '
 intro: Join the women of UCSD SWE as we inspire future women in STEM.
 events:
-- image: "/uploads/meal.png"
-  title: Event Title
-  intro: Lorem ipsum dolor sit amet, consectetur.
-  url: houfasf
-- image: "/uploads/meal.png"
-  title: Event Title
-  intro: Lorem ipsum dolor sit amet, consectetur.
-  url: ulllll
-- image: "/uploads/meal.png"
-  title: Event Title
-  intro: Lorem ipsum dolor sit amet, consectetur.
-  url: "/"
+- image: "/uploads/DSCF3693.JPG"
+  title: Envision
+  intro: UCSD SWE's Annual outreach Event
+  url: 'http://ucsdenvision.wixsite.com/envision '
 layout: social
 ---
 
