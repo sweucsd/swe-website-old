@@ -25,7 +25,7 @@ officers:
   officer_name: Amy Hu
   officer_title: Vice President External
   officer_url: mailto:amhu@ucsd.edu
-- officer_image: "/uploads/VPInternal.JPG"
+- officer_image: "/uploads/IMG_2220.JPG"
   officer_name: Bryn Henning
   officer_title: Vice President Internal
   officer_url: mailto:bhenning@ucsd.edu
@@ -49,11 +49,11 @@ officers:
   officer_name: Rochelle Manongdo
   officer_title: Project Team Coordinator
   officer_url: mailto:rochellemanongdo@gmail.com
-- officer_image: "/uploads/Publicity.JPG"
+- officer_image: "/uploads/Publicity%20(1).JPG"
   officer_name: Payal Singh
   officer_title: Publicity Chair
   officer_url: mailto:payalsinghus@gmail.com
-- officer_image: 
+- officer_image: "/uploads/SocialChair.JPG"
   officer_name: Brea Torquato
   officer_title: Social Chair
   officer_url: mailto:btorquat@ucsd.edu
