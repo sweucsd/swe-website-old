@@ -3,8 +3,8 @@ title: Outreach
 date: 2017-06-29 22:18:00 Z
 position: 6
 subtitle: Upcoming Outreach Events
-blurb: 'We are currently planning outreach events but do not have plans as of yet.
-  Please visit our Envision page to learn about our annual outreach.
+blurb: 'Stay tuned for new outreach events. Please visit our Envision page to learn
+  about our annual outreach.
 
 '
 intro: Join the women of UCSD SWE as we inspire future women in STEM.
