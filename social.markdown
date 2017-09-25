@@ -5,21 +5,13 @@ position: 4
 intro: Come join the women of UC San Diego SWE to meet new friends, take a break from
   your classes, and just have a good time.
 subtitle: Upcoming Social Events
-blurb: UCSD SWE is currently on summer vacation. Please check back in Fall to find
-  events.
+blurb: Please stop by our booth at the following locations to learn more about social
+  activities with SWE.
 events:
-- title: Event Title
-  intro: event intro goes here
-  image: "/uploads/meal.png"
-  url: someurl
-- title: Event Title
-  intro: event intro goes here
-  image: "/uploads/meal.png"
+- title: Jacobs School of Engineering Open House
+  intro: 'Please stop by and say hello to the women of SWE at Jacobs Hall from  1:30-3pm '
+  image: "/uploads/20170520_195315.jpg"
   url: url
-- title: Event Title
-  intro: event intro goes here
-  image: "/uploads/meal.png"
-  url: some title im adding on siteleaf on the google mac url
 layout: social
 ---
 
