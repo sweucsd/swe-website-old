@@ -43,9 +43,9 @@ exclude:
 - Gemfile.lock
 - LICENSE
 sponsor_logos:
-- "/uploads/meal.png"
-- "/uploads/we_local_logo.png"
-- "/uploads/we_local_logo.png"
+- "/uploads/SWE_Full_Master_Brand_COLOR.png"
+- "/uploads/SWE_Full_Master_Brand_COLOR.png"
+- "/uploads/SWE_Full_Master_Brand_COLOR.png"
 events:
 - event_name: 'UCSD SWE Presents: Envision'
   event_date: 2018-02-10 08:00:00.000000000 Z
