@@ -342,11 +342,12 @@ $padding--vertical: 2rem;
 
 		a, img {
 			margin-bottom: 2.5rem;
-			width: 35%;
-			height: 35%;
+			width: 30%;
+			// height: 35%;
 
 			@include medium {
-				width: auto;
+				// width: auto;
+				// width: 30%;
 				transform: scale(0.65);
 
 			}

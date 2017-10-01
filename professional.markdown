@@ -17,12 +17,10 @@ events:
   intro: Join SWE and VMware on October 12th for an informational session regarding
     employment at VMware.
   url: "/"
-- image: "/uploads/20170211_174152.jpg"
+- image: "/uploads/123.jpg"
   title: WE17
   intro: UCSD SWE will be returning to SWE National Conference to represent UC San
-    Diego at the National level. If you are interested in joining us please contact
-    Leah Guenter
+    Diego at the National level. If you are interested in joining us please contact Leah Guenter.
   url: mailto:leah.guenter@gmail.com
 layout: social
 ---
-

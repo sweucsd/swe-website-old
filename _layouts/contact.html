@@ -7,10 +7,16 @@ layout: default
 
     <form action="https://formspree.io/swe@ucsd.edu"
       method="POST">
-        <input type="text" name="name" placeholder="Person McPerson" required>
+        <!-- <input type="text" name="name" placeholder="Person McPerson" required>
         <input type="email" name="email" placeholder="buttercup@swe.com" required>
         <input type="tel" name="phone" placeholder="+1-666-666-666">
-        <textarea name="message" placeholder="somerhing somethidnfs" required></textarea>
+        <textarea name="message" placeholder="somerhing somethidnfs" required></textarea> -->
+
+        <input type="text" name="name" placeholder="{{ page.placeholder_name }}" required>
+        <input type="email" name="email" placeholder="{{ page.placeholder_email }}" required>
+        <input type="tel" name="phone" placeholder="{{ page.placeholder_name }}">
+        <textarea name="message" placeholder="{{ page.placeholder_message }}" required></textarea>
+
         <input type="submit" value="Send"></button>
     </form>
 
