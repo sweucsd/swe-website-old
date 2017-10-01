@@ -28,7 +28,7 @@ defaults:
   values:
     layout: default
 url: http://www.sampledomainpleasechange.com
-baseurl:
+baseurl: 
 permalink: pretty
 exclude:
 - ".git"
