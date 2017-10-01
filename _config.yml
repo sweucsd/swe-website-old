@@ -28,7 +28,7 @@ defaults:
   values:
     layout: default
 url: http://www.sampledomainpleasechange.com
-baseurl: 
+baseurl:
 permalink: pretty
 exclude:
 - ".git"
@@ -56,4 +56,4 @@ events:
   event_date: 2017-10-30 17:30:00.000000000 Z
 - event_name: 'Northrup Grumman Info Session '
   event_date: 2017-10-10 18:00:00.000000000 Z
-footer_email: editable email
+footer_email: some@some.com
