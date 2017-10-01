@@ -408,16 +408,16 @@ $padding--vertical: 2rem;
 	}
 
 	.team__module {
-		// width: 40%;
+		width: 40%;
 		margin-bottom: 2.25rem;
 		// flex-basis: 20%;
 
 		@include medium {
-			// width: 26.5%;
+			width: 35%;
 		}
 
 		@include large {
-			// width: 50%;
+			width: 30%;
 		}
 
 		img {
