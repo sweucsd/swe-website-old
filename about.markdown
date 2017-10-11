@@ -2,7 +2,7 @@
 title: About
 date: 2017-06-27 22:40:00 Z
 position: 1
-banner: "/uploads/DSCF3693.JPG"
+banner: "/uploads/20170520_195315.jpg"
 intro: 'UC San Diego Society of Women Engineers informs, nurtures, and encourages
   women to attain high levels of education and professional achievement. Our members
   serve as role models to pre-college and engineering students.
