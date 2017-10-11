@@ -9,13 +9,16 @@
 </aside>
 <footer class="section footer">
         <h2>Our Sponsors</h2>
-        <figure>
-            {% for sponsor_logo in site.sponsor_logos %}
-                <img src="{{ sponsor_logo }}" alt="">
-            {% endfor %}
-            <!-- <img src="{{ site.baseurl }}/assets/img/lp.png" alt="">
-            <img src="{{ site.baseurl }}/assets/img/lp.png" alt=""> -->
-        </figure>
+        <div class="logo-container">
+                {% for sponsor_logo in site.sponsor_logos %}
+
+                <figure>
+                    <img src="{{ sponsor_logo }}" alt="">
+                </figure>
+
+                {% endfor %}
+        </div>
+
         <nav>
             <!-- <a href="#">LinkedIn</a> -->
             <a href="mailto:{{ site.footer_email }}">Email</a>

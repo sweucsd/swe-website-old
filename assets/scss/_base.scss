@@ -332,23 +332,27 @@ $padding--vertical: 2rem;
 		margin-bottom: 3.25rem;
 	}
 
-	figure {
+	.logo-container {
 		display: flex;
-		flex-flow: row no-wrap;
+		flex-flow: row nowrap;
 		justify-content: space-around;
 		width: 80%;
 		// padding: 0 7.5%;
 		margin: 0 auto;
 
-		a, img {
+		@include small {
+			flex-flow: row nowrap;
+		}
+
+		figure {
 			margin-bottom: 2.5rem;
-			width: 30%;
+			width: 100%;
 			// height: 35%;
 
-			@include medium {
+			@include small {
 				// width: auto;
-				// width: 30%;
-				transform: scale(0.65);
+				width: 30%;
+				// transform: scale(0.65);
 
 			}
 		}

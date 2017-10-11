@@ -6,7 +6,11 @@
     <body>
         {% include header.html %}
         <!-- Hero -->
-        <section class="hero section">
+        <section class="hero section"
+            {% if page.banner %}
+            style="background: url('{{ page.banner }}') no-repeat center center fixed; background-size: cover;"
+            {% endif %}
+        >
             <article class="hero__content">
                 <h1>
                     {% if page.url == "/" %}
