@@ -2,7 +2,7 @@
 title: Outreach
 date: 2017-06-29 22:18:00 Z
 position: 6
-banner: ""
+banner: ''
 subtitle: Upcoming Outreach Events
 blurb: 'Stay tuned for new outreach events. Please visit our Envision page to learn
   about our annual outreach.
@@ -16,3 +16,4 @@ events:
   url: 'http://ucsdenvision.wixsite.com/envision '
 layout: social
 ---
+
