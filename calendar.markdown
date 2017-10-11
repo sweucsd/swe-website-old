@@ -2,7 +2,7 @@
 title: Calendar
 date: 2017-06-28 22:41:00 Z
 position: 2
-banner: ''
+banner: "/uploads/20170520_195315.jpg"
 intro: 'UCSD SWE is currently on summer vacation. Please check back in Fall to find
   events.
 
