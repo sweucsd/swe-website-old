@@ -5,10 +5,10 @@ position: 7
 banner: "/uploads/IMG_2133.JPG"
 intro: Please contact UC San Diego SWE with any questions.
 subtitle: Contact SWE
+placeholder_name: Name
+placeholder_email: Email
+placeholder_phone: Phone Number
+placeholder_message: Message
 layout: contact
-placeholder_name: some name
-placeholder_email: some name
-placeholder_phone: some name
-placeholder_message: some name
 ---
 
