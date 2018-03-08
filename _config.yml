@@ -27,7 +27,7 @@ defaults:
     path: ''
   values:
     layout: default
-url: http://www.sampledomainpleasechange.com
+url: http://swe.ucsd.edu
 baseurl: 
 permalink: pretty
 exclude:
