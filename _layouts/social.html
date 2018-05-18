@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<main class="section main">
+    <h1 class="main__title">{{ page.subtitle }}</h1>
+
+    <p class="lead subtitle">
+        {{ page.blurb }}
+    </p>
+
+    <div class="module-container">
+        {% for event in page.events %}
+        <div class="module">
+            <center>
+                <!-- <img src="{{ site.baseurl }}/assets/img/meal.png" alt=""> -->
+                <img src="{{ event.image }}" alt="">
+            </center>
+
+            <a href="{{ event.url }}"><h3>{{ event.title }}</h3></a>
+            <p>
+                {{ event.intro }}
+            </p>
+        </div>
+        {% endfor %}
+
+
+    </div>
+
+    <p class="full-container">
+        <a href="{{ site.baseurl }}/calendar/" class="full">Full Calendar</a>
+    </p>
+
+
+</main>

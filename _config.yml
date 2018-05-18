@@ -1,0 +1,60 @@
+---
+title: Society of Women Engineers
+timezone: America/Los_Angeles
+destination: ./public_html
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+  work:
+    title: Work
+    output: true
+defaults:
+- scope:
+    path: posts
+    type: posts
+  values:
+    layout: default
+    permalink: "/:title/"
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: default
+- scope:
+    path: ''
+  values:
+    layout: default
+url: http://swe.ucsd.edu
+baseurl: 
+permalink: pretty
+exclude:
+- ".git"
+- ".gitignore"
+- ".DS_Store"
+- ".sass-cache"
+- package.json
+- Gruntfile.js
+- node_modules
+- README.md
+- Gemfile
+- Gemfile.lock
+- LICENSE
+sponsor_logos:
+- "/uploads/SWE_Full_Master_Brand_COLOR.png"
+- "/uploads/SWE_Full_Master_Brand_COLOR.png"
+- "/uploads/SWE_Full_Master_Brand_COLOR.png"
+events:
+- event_name: 'UCSD SWE Presents: Envision'
+  event_date: 2018-02-10 08:00:00.000000000 Z
+  event_url: http://ucsdenvision.wixsite.com/envision
+- event_name: 'General Body Meeting #1'
+  event_date: 2017-10-11 18:30:00.000000000 Z
+- event_name: Professional Evening with Industry
+  event_date: 2017-10-30 17:30:00.000000000 Z
+- event_name: 'Northrup Grumman Info Session '
+  event_date: 2017-10-10 18:00:00.000000000 Z
+footer_email: swe@ucsd.edu

@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<main class="section main">
+    <h1 class="main__title">{{ page.subtitle_1 }}</h1>
+
+    <p class="lead">
+        {{ page.blurb }}
+    </p>
+</main>
+
+<section class="section team">
+    <h1 class="main__title team__title">{{ page.subtitle_2 }}</h1>
+
+    <div class="team-container">
+
+        {% for officer in page.officers %}
+
+        <article class="team__module">
+            <center>
+                <img src="{{ officer.officer_image }}" alt="">
+            </center>
+            <a href="mailto:{{ officer.officer_url }}"><h3>{{ officer.officer_name }}</h3></a>
+            <p>{{ officer.officer_title }}</p>
+        </article>
+
+        {% endfor %}
+
+
+    </div>
+</section>

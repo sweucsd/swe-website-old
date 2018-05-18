@@ -1,0 +1,46 @@
+---
+layout: default
+---
+
+<main class="section main">
+    <h1 class="main__title">{{ page.subtitle }}</h1>
+
+
+    <marquee><h1>{{ site.sample }}</h1></marquee>
+
+    <center>
+    <div class="events">
+        {% for event in site.events %}
+            <div class="events__row">
+                <span>{{ event.event_name }}</span>
+                <!-- <span>{{ event.event_date }}</span> -->
+                <time>{{ event.event_date | date: "%A, %B %-d" }}</time>
+                <span><a href="{{ event.event_url }}" target="_blank">RSVP</a></span>
+            </div>
+        {% endfor %}
+    </div>
+    </center>
+
+    {% comment %}
+        {% capture boo %}{{ site.pages | where: "title", "Home" }}{% endcapture %}
+
+        {% for event in boo.events %}
+            <div class="events__row">
+                <span>{{ event.event_name }} - if this comes up then it worked</span>
+                <!-- <span>{{ event.event_date }}</span> -->
+                <time>{{ event.event_date | date: "%A, %B %-d" }}</time>
+                <span><a href="{{ event.event_url }}" target="_blank">RSVP</a></span>
+            </div>
+        {% endfor %}
+    {% endcomment %}
+
+    <hr>
+
+    <center>
+        <figure class="calendar-container">
+            {{ page.calendar_embed_code }}
+        </figure>
+    </center>
+
+    <!-- <img src="{{ site.baseurl }}/assets/img/cal.png" alt="" class="cal"> -->
+</main>

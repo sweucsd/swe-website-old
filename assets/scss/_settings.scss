@@ -1,0 +1,275 @@
+// $font-heading: Imperial URW, Karla, Abril Fatface, Times, serif;
+// $font-body: Karla, monospace, sans-serif;
+// $font-caption: 'Francois One', Franklin Gothic, sans-serif;
+// $font-monospace: Roboto Mono, monospace;
+
+@font-face {
+    font-family: 'futura_ltbold';
+    src: url('futuralt-bold-webfont.woff2') format('woff2'),
+         url('futuralt-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'san_francisco_displayregular';
+    src: url('sf-webfont.woff2') format('woff2'),
+         url('sf-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+$sf: 'san_francisco_displayregular',-apple-system,BlinkMacSystemFont,sans-serif;
+%futura {
+	font: {
+        family: futura_ltbold, Helvetica, sans-serif;
+    }
+}
+
+$futura: 'futura_ltbold', sans-serif;
+
+// Variables
+
+$blue: #4E557E;
+$yellow: #FBE199;
+$dark-blue: #4D547F;
+$purple: #874DFF;
+$light-purple: #8850F3;
+$tab-purple: #6C53A3;
+$baby-pink: #FAF7FF;
+$dull-blue: #545A84;
+$gray: #676767;
+$off-white: #ededed;
+
+// $blue: #00adef;
+// $orange: #fa5c5c;
+// $yellow: #f1c40f;
+// $red: #f22613;
+// $green: #bada55;
+// $yellow-fast: #fee900;
+// $gray: rgb(31, 31, 31);
+
+$facebook-blue: #3b5998;
+$twitter-blue: #55acee;
+
+$small-width: 600px;
+$medium-width: 768px;
+$large-width: 1024px;
+
+@mixin small {
+  @media (min-width: #{$small-width}) {
+    @content;
+  }
+}
+
+@mixin max-small {
+  @media (max-width: #{$small-width}) {
+    @content;
+  }
+}
+
+@mixin medium {
+  @media (min-width: #{$medium-width}) {
+    @content;
+  }
+}
+
+@mixin large {
+  @media (min-width: #{$large-width}) {
+    @content;
+  }
+}
+
+// Animations
+
+@keyframes spin {
+	0% { transform: rotate(0); }
+	100% { transform: rotate(359deg); }
+}
+
+@keyframes shake {
+  from, to {
+    transform: translate3d(0, 0, 0);
+  }
+
+  10%, 30%, 50%, 70%, 90% {
+    transform: translate3d(-10px, 0, 0);
+  }
+
+  20%, 40%, 60%, 80% {
+    transform: translate3d(10px, 0, 0);
+  }
+}
+
+@keyframes rotate-bg {
+  0% { background-position-x: 0; }
+  50% { background-position-x: 100%; }
+  100% { background-position-x: 200%; }
+}
+
+
+@keyframes flash {
+  from, 50%, to {
+    opacity: 1;
+  }
+
+  25%, 75% {
+    opacity: 0;
+  }
+}
+
+@keyframes pulse {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 0.5; }
+	100% { opacity: 1; }
+}
+
+@keyframes fadeOut {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.margin-top {
+    margin-top: 2.5rem;
+}
+
+%full-bg {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+    // background-attachment: fixed;
+}
+
+%word-break {
+  -ms-word-break: break-all;
+  word-break: break-all;
+  word-break: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
+::selection {
+	background: rgba(black, 0.5);
+	color: white;
+}
+
+::-moz-selection {
+    background: rgba(black, 0.5);
+	color: white;
+}
+
+html, body {
+	min-height: 100%;
+}
+
+
+header, section, footer {
+	width: 100%;
+	overflow: auto;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+:focus {
+	outline: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+}
+
+b { font-weight: normal; }
+
+i { font-style: normal; }
+
+strong { font-weight: bold; }
+
+em { font-style: italic; }
+
+u { text-decoration: underline; }
+
+img { max-width: 100%; }
+
+small {
+    font-size: 90%;
+}
+
+header, footer, section {
+	overflow: auto;
+	width: 100%;
+}
+
+// Form Reset
+
+input[placeholder],
+	input[type="text"],
+	input[type="email"],
+	input[type="tel"],
+	input[type="url"],
+	input[type="submit"],
+	textarea,
+	select,
+	option {
+	//   color: white;
+	  padding: 1rem;
+	  border-radius: 0;
+	  background: rgba(white, 0);
+	  outline-offset: 0;
+	//   max-width: 100%;
+	  font: {
+	  	family: $sf;
+	  }
+      -webkit-appearance: none;
+      border: 2px solid $tab-purple;
+}
+
+input[type="submit"] {
+	font: {
+		family: $sf;
+		weight: bold;
+	}
+	text-transform: uppercase;
+	-webkit-appearance: none;
+	appearance: none;
+	border-radius: 0;
+	// background: white;
+	// color: black;
+}
+
+// hr {
+//     display: inline-block;
+//     // margin: 0 auto;
+//     text-align: center;
+//     background: $blue;
+//     width: 150px;
+//     height: 6px;
+//     margin: 2.5rem auto;
+// }

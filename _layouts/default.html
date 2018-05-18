@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        {% include head.html %}
+    </head>
+    <body>
+        {% include header.html %}
+        <!-- Hero -->
+        <section class="hero section"
+            {% if page.banner %}
+            style="background: url('{{ page.banner }}') no-repeat center center fixed; background-size: cover;"
+            {% endif %}
+        >
+            <article class="hero__content">
+                <h1>
+                    {% if page.url == "/" %}
+                        {{ site.title }}
+                    {% else %}
+                        {{ page.title }}
+                    {% endif %}
+                </h1>
+                <img src="{{ site.baseurl }}/assets/img/zag.svg" alt="">
+                <p>
+                    {{ page.intro }}
+                </p>
+            </article>
+        </section>
+        <!-- Tabs -->
+        <section class="section tabs">
+            <span><a href="{{ site.baseurl }}/social">Social</a></span>
+            <span><a href="{{ site.baseurl }}/professional">Professional</a></span>
+            <span><a href="{{ site.baseurl }}/outreach">Outreach</a></span>
+        </section>
+
+        {{ content }}
+
+        {% include footer.html %}
+        {% include analytics.html %}
+        <script src="//localhost:35729/livereload.js"></script>
+        <script src="{{ site.baseurl }}/assets/js/libs/jquery.js"></script>
+
+        <script>
+            $(document).ready(function() {
+            $('body').addClass('js');
+            var $menu = $('#menu'),
+            $menulink = $('.menu-link');
+
+            $menulink.click(function() {
+            $menulink.toggleClass('active');
+            $menu.toggleClass('active');
+            return false;
+            });});
+        </script>
+
+        <script type="text/javascript">
+
+            // var main = function() {
+            $('.nav-toggle').click(function() {
+                console.log("clickasdas");
+                if($('.navigation').hasClass('close')) {
+                    $('.navigation').removeClass('close');
+                    $('.navigation').addClass('open');
+                    // $(this).addClass('open').removeClass('close');
+                }
+                else {
+                    $('.navigation').removeClass('open');
+                    $('.navigation').addClass('close');
+                    // $(this).addClass('active').removeClass('close');
+                }
+            });
+
+        // $(document).ready(main);
+        </script>
+    </body>
+</html>
