@@ -1,6 +1,6 @@
 ---
 title: Home
-date: 2017-06-27 02:25:00 Z
+date: 2017-06-26 19:25:00 -07:00
 permalink: "/"
 position: 0
 banner: "/uploads/IMG_2474.JPG"

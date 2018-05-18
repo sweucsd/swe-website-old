@@ -1,6 +1,6 @@
 ---
 title: Outreach
-date: 2017-06-29 22:18:00 Z
+date: 2017-06-29 15:18:00 -07:00
 position: 6
 banner: ''
 subtitle: Upcoming Outreach Events

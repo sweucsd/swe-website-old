@@ -1,6 +1,6 @@
 ---
 title: title
-date: 2015-05-10 06:29:00 Z
+date: 2015-05-09 23:29:00 -07:00
 intro: something
 banner: "/uploads/2.png"
 images:

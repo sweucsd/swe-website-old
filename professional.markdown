@@ -1,6 +1,6 @@
 ---
 title: Professional
-date: 2017-06-29 22:11:00 Z
+date: 2017-06-29 15:11:00 -07:00
 position: 5
 subtitle: Upcoming Professional Events
 banner: "/uploads/20170520_195315.jpg"

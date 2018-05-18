@@ -1,6 +1,6 @@
 ---
 title: About
-date: 2017-06-27 22:40:00 Z
+date: 2017-06-27 15:40:00 -07:00
 position: 1
 banner: "/uploads/IMG_2474.JPG"
 intro: 'UC San Diego Society of Women Engineers informs, nurtures, and encourages

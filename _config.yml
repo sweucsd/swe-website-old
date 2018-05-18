@@ -1,7 +1,6 @@
 ---
 title: Society of Women Engineers
 timezone: America/Los_Angeles
-destination: ./public_html
 collections:
   posts:
     title: Posts
@@ -28,6 +27,7 @@ defaults:
     path: ''
   values:
     layout: default
+destination: "./public_html"
 url: http://swe.ucsd.edu
 baseurl: 
 permalink: pretty

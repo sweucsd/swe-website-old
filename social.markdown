@@ -1,6 +1,6 @@
 ---
 title: Social
-date: 2017-06-27 01:33:00 Z
+date: 2017-06-26 18:33:00 -07:00
 position: 4
 banner: ''
 intro: Come join the women of UC San Diego SWE to meet new friends, take a break from
