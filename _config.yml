@@ -1,6 +1,7 @@
 ---
 title: Society of Women Engineers
 timezone: America/Los_Angeles
+destination: ./public_html
 collections:
   posts:
     title: Posts
