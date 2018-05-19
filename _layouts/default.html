@@ -54,22 +54,21 @@
 
         <script type="text/javascript">
 
-            // var main = function() {
             $('.nav-toggle').click(function() {
                 console.log("clickasdas");
                 if($('.navigation').hasClass('close')) {
                     $('.navigation').removeClass('close');
                     $('.navigation').addClass('open');
-                    // $(this).addClass('open').removeClass('close');
                 }
                 else {
                     $('.navigation').removeClass('open');
                     $('.navigation').addClass('close');
-                    // $(this).addClass('active').removeClass('close');
                 }
             });
 
-        // $(document).ready(main);
         </script>
+        {% if jekyll.environment == 'production' %}
+        {% include analytics.html %}
+        {% endif %}
     </body>
 </html>
