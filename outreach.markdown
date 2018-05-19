@@ -2,7 +2,7 @@
 title: Outreach
 date: 2017-06-29 15:18:00 -07:00
 position: 6
-banner: ''
+banner: "/uploads/DSCF3693.JPG"
 subtitle: Upcoming Outreach Events
 blurb: 'Stay tuned for new outreach events. Please visit our Envision page to learn
   about our annual outreach.
