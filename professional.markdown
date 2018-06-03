@@ -22,8 +22,8 @@ events:
   title: WE18
   intro: 'UCSD SWE will be returning to SWE National Conference to represent UC San
     Diego at the National level. If you are interested in joining us please contact
-    Jackie Villalobos. '
-  url: mailto:j6villal@ucsd.edu
+    Payal Singh. '
+  url: mailto:pks007@ucsd.edu
 layout: social
 ---
 
