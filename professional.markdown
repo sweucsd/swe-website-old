@@ -19,11 +19,11 @@ events:
     employment at VMware.
   url: "/"
 - image: "/uploads/123.jpg"
-  title: WE17
-  intro: UCSD SWE will be returning to SWE National Conference to represent UC San
+  title: WE18
+  intro: 'UCSD SWE will be returning to SWE National Conference to represent UC San
     Diego at the National level. If you are interested in joining us please contact
-    Leah Guenter.
-  url: mailto:leah.guenter@gmail.com
+    Jackie Villalobos. '
+  url: mailto:j6villal@ucsd.edu
 layout: social
 ---
 
