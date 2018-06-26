@@ -9,7 +9,7 @@ intro: Networking, Resume Workshops, Technical Teams, and Career Fairs are all e
   of UC San Diego SWE’s commitment to professional development. Come join us to gain
   industry contacts and meet with company representatives in a diverse environment.
 events:
-- image: "/uploads/SWE_Full_Master_Brand_COLOR.png"
+- image: https://i.imgur.com/yH8A46y.jpg
   title: Professional Evening with Industry
   intro: Join SWE and the IDEA center diversity orgs on October 30th  for an evening
     full of networking.
