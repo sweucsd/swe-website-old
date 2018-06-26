@@ -2,7 +2,7 @@
 title: Contact
 date: 2017-06-29 16:33:00 -07:00
 position: 7
-banner: "/uploads/IMG_2133.JPG"
+banner: https://i.imgur.com/Eurlzid.jpg
 intro: Please contact UC San Diego SWE with any questions.
 subtitle: Contact SWE
 placeholder_name: Name
