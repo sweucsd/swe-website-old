@@ -48,13 +48,13 @@ sponsor_logos:
 - https://i.imgur.com/tOmIeZ7.jpg
 - https://i.imgur.com/7ddRs4V.jpg
 events:
-- event_name: 'UCSD SWE Presents: Envision'
-  event_date: 2019-02-02 17:00:00.000000000 Z
-  event_url: http://ucsdenvision.wixsite.com/envision
+- event_name: 'Northrup Grumman Info Session '
+  event_date: 2018-10-04 00:00:00.000000000 Z
 - event_name: 'General Body Meeting #1'
   event_date: 2018-10-10 01:30:00.000000000 Z
 - event_name: Professional Evening with Industry
   event_date: 2018-10-30 01:00:00.000000000 Z
-- event_name: 'Northrup Grumman Info Session '
-  event_date: 2018-10-04 00:00:00.000000000 Z
+- event_name: 'UCSD SWE Presents: Envision'
+  event_date: 2019-02-02 17:00:00.000000000 Z
+  event_url: http://ucsdenvision.wixsite.com/envision
 footer_email: swe@eng.ucsd.edu
