@@ -9,11 +9,17 @@ subtitle: Upcoming Social Events
 blurb: Please stop by our booth at the following locations to learn more about social
   activities with SWE.
 events:
-- title: Ice Cream Fundae
-  intro: Join SWE for our last social of the year on Tuesday, May 29th at 6:30pm in
-    Henry Booker! We will be making sundaes and socializing :)
-  image: "/uploads/20170520_195315.jpg"
-  url: url
+- title: Pumpkin Carving Social
+  intro: 'Come to our Pumpkin Carving Social with IEEE and HKN! Pumpkins will be first
+    come first served so be sure to come out and have a SPOOK-tacular time! '
+  image: https://i.imgur.com/LfoTXiq.jpg
+  url: https://www.facebook.com/events/2182458508668527/
+- title: 'Dia de Los Muertos Social '
+  intro: Do midterms got you dead? Come relax and enjoy Dia de los Muertos with a
+    movie night with SHPEtinas! We will be watching Coco and recovering from the first
+    half of the quarter!
+  image: https://i.imgur.com/9BYIE7N.jpg
+  url: https://www.facebook.com/events/331849604243913/
 layout: social
 ---
 
