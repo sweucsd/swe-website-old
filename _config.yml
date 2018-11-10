@@ -44,7 +44,7 @@ exclude:
 - Gemfile.lock
 - LICENSE
 sponsor_logos:
-- https://i.imgur.com/YIqjvqA.jpg
+- Key: https://i.imgur.com/YIqjvqA.jpg
 - https://i.imgur.com/tOmIeZ7.jpg
 - https://i.imgur.com/7ddRs4V.jpg
 events:
