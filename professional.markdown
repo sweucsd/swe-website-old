@@ -11,7 +11,7 @@ intro: Networking, Resume Workshops, Technical Teams, and Career Fairs are all e
 events:
 - image: https://i.imgur.com/yH8A46y.jpg
   title: Professional Evening with Industry
-  intro: Join SWE and the IDEA center diversity orgs on October 30th  for an evening
+  intro: Join SWE and the IDEA center diversity orgs on October 29th for an evening
     full of networking.
 - image: "/uploads/SWE_Full_Master_Brand_COLOR.png"
   title: VMware Information Session
@@ -21,8 +21,8 @@ events:
 - image: "/uploads/123.jpg"
   title: WE18
   intro: 'UCSD SWE will be returning to SWE National Conference to represent UC San
-    Diego at the National level. If you are interested in joining us please contact
-    Payal Singh. '
+    Diego at the National level. If you are interested in joining us next year please
+    contact Payal Singh. '
   url: mailto:pks007@ucsd.edu
 layout: social
 ---
