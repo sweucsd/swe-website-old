@@ -48,12 +48,15 @@ sponsor_logos:
 - https://i.imgur.com/tOmIeZ7.jpg
 - https://i.imgur.com/7ddRs4V.jpg
 events:
-- event_name: 'Northrup Grumman Info Session '
-  event_date: 2018-10-04 00:00:00.000000000 Z
-- event_name: 'General Body Meeting #1'
-  event_date: 2018-10-10 01:30:00.000000000 Z
-- event_name: Professional Evening with Industry
-  event_date: 2018-10-30 01:00:00.000000000 Z
+- event_name: 'General Body Meeting #3'
+  event_date: 2018-11-14 02:30:00.000000000 Z
+  event_url: https://www.facebook.com/events/277367959765412/
+- event_name: Amway Info Session with AICHE
+  event_date: 2018-10-04 01:30:00.000000000 Z
+  event_url: https://www.facebook.com/events/555050548268485/
+- event_name: Anita Borg Leadership and Engagement (ABLE) Program KickOff Event
+  event_date: 2018-11-17 18:00:00.000000000 Z
+  event_url: http://education.sdsc.edu/studenttech/?page_id=678
 - event_name: 'UCSD SWE Presents: Envision'
   event_date: 2019-02-02 17:00:00.000000000 Z
   event_url: http://ucsdenvision.wixsite.com/envision
