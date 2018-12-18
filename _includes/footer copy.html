@@ -1,0 +1,28 @@
+<aside class="beyond">
+    <h3>Beyond SWE</h3>
+    <h4>Come see what SWE has to offer outside UCSD!</h4>
+    <div class="beyond__tabs">
+        <span><a href="http://www.swesandiego.org/" target="_blank">San Diego SWE</a></span>
+        <span><a href="http://societyofwomenengineers.swe.org/" target="_blank">National SWE</a></span>
+        <span><a href="http://societyofwomenengineers.swe.org/swenext" target="_blank">SWE Next</a></span>
+    </div>
+</aside>
+<footer class="section footer">
+        <h2>Our Sponsors</h2>
+        <div class="logo-container">
+                {% for sponsor_logo in site.sponsor_logos %}
+
+                <figure>
+                    <img src="{{ sponsor_logo }}" alt="">
+                </figure>
+
+                {% endfor %}
+        </div>
+
+        <nav>
+            <!-- <a href="#">LinkedIn</a> -->
+            <a href="mailto:{{ site.footer_email }}">Email</a>
+            <a href="https://www.instagram.com/swe.ucsd/">Instagram</a>
+            <a href="https://www.facebook.com/sweucsd/">Facebook</a>
+        </nav>
+</footer>
