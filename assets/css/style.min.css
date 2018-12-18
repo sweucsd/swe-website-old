@@ -771,7 +771,7 @@ body {
     display: inline-block;
     margin: 10px;
 }
-.footer .logo-container figure {
+.footer .logo-container figure img {
 	max-width: 200px !important;
 }
 .footer .logo-container {
