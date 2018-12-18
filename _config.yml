@@ -43,6 +43,9 @@ exclude:
 - Gemfile
 - Gemfile.lock
 - LICENSE
+sponsor_logos2:
+- https://i.imgur.com/QoAYFlq.png
+- https://i.imgur.com/7ddRs4V.jpg
 sponsor_logos:
 - - https://i.imgur.com/QoAYFlq.png
   - https://i.imgur.com/nAzTFP2.png
