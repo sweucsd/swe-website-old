@@ -769,13 +769,14 @@ body {
 .footer .logo-container figure {
     width: 30%;
     display: inline-block;
-    margin: auto;
+    margin: 10px;
     max-width: 200px !important;
 }
 .footer .logo-container {
     display: inline-block !important;
     margin: auto !important;
     width: 100% !important;
+    text-align: center;
 }
 .footer h2 {
     font-family: "san_francisco_displayregular", -apple-system, BlinkMacSystemFont, sans-serif;
