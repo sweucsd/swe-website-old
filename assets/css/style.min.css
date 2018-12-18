@@ -767,10 +767,12 @@ body {
 }
 
 .footer .logo-container figure {
-    width: 30%;
+    width: 20%;
     display: inline-block;
     margin: 10px;
-    max-width: 200px !important;
+}
+.footer .logo-container figure {
+	max-width: 200px !important;
 }
 .footer .logo-container {
     display: inline-block !important;
