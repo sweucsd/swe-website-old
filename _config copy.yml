@@ -1,0 +1,69 @@
+---
+title: Society of Women Engineers
+timezone: America/Los_Angeles
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+  work:
+    title: Work
+    output: true
+defaults:
+- scope:
+    path: posts
+    type: posts
+  values:
+    layout: default
+    permalink: "/:title/"
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: default
+- scope:
+    path: ''
+  values:
+    layout: default
+destination: "./public_html"
+url: http://swe.ucsd.edu
+baseurl: 
+permalink: pretty
+exclude:
+- ".git"
+- ".gitignore"
+- ".DS_Store"
+- ".sass-cache"
+- package.json
+- Gruntfile.js
+- node_modules
+- README.md
+- Gemfile
+- Gemfile.lock
+- LICENSE
+sponsor_logos2:
+- https://i.imgur.com/QoAYFlq.png
+- https://i.imgur.com/7ddRs4V.jpg
+sponsor_logos:
+- - https://i.imgur.com/QoAYFlq.png
+  - https://i.imgur.com/nAzTFP2.png
+  - https://i.imgur.com/YIqjvqA.png
+- - https://i.imgur.com/7ddRs4V.jpg
+  - https://i.imgur.com/YIqjvqA.png
+  - https://i.imgur.com/nAzTFP2.png
+events:
+- event_name: 'General Body Meeting #3'
+  event_date: 2018-11-14 02:30:00.000000000 Z
+  event_url: https://www.facebook.com/events/277367959765412/
+- event_name: Amway Info Session with AICHE
+  event_date: 2018-10-04 01:30:00.000000000 Z
+  event_url: https://www.facebook.com/events/555050548268485/
+- event_name: Anita Borg Leadership and Engagement (ABLE) Program KickOff Event
+  event_date: 2018-11-17 18:00:00.000000000 Z
+  event_url: http://education.sdsc.edu/studenttech/?page_id=678
+- event_name: 'UCSD SWE Presents: Envision'
+  event_date: 2019-02-02 17:00:00.000000000 Z
+  event_url: http://ucsdenvision.wixsite.com/envision
+footer_email: swe@eng.ucsd.edu
