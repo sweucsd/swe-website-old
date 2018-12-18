@@ -50,8 +50,13 @@ sponsor_logos:
 - - https://i.imgur.com/7ddRs4V.jpg
   - https://i.imgur.com/YIqjvqA.png
   - https://i.imgur.com/nAzTFP2.png
-- Key 1: https://i.imgur.com/7ddRs4V.jpg
-  Key: https://i.imgur.com/nAzTFP2.png
+- Key 1:
+  - https://i.imgur.com/QoAYFlq.png
+  - https://i.imgur.com/nAzTFP2.png
+  - https://i.imgur.com/YIqjvqA.png
+  Key:
+  - https://i.imgur.com/7ddRs4V.jpg
+  - https://i.imgur.com/YIqjvqA.png
 events:
 - event_name: 'General Body Meeting #3'
   event_date: 2018-11-14 02:30:00.000000000 Z
