@@ -767,7 +767,7 @@ body {
 }
 
 .footer .logo-container figure {
-    width: 20% !important;
+    width: 20%;
     display: inline-block;
     margin: 10px;
 }
@@ -808,7 +808,12 @@ body {
 
 @media (max-width: 900px) {
     .footer .logo-container figure {
-        width: 30 !important%
+        width: 30%;
+    }
+}
+@media (min-width: 901px) {
+    .footer .logo-container figure {
+        width: 20%;
     }
 }
 
