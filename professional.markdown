@@ -12,7 +12,7 @@ events:
 - image: https://i.imgur.com/W9kzquX.jpg
   title: Professional Evening with Industry
   intro: Join SWE and the IDEA center diversity orgs on October 29th for an evening
-    full of networking.
+    full of networking including a dinner and career fair.
 - image: "/uploads/SWE_Full_Master_Brand_COLOR.png"
   title: VMware Information Session
   intro: Join SWE and VMware on October 12th for an informational session regarding
