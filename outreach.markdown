@@ -10,8 +10,8 @@ blurb: 'Stay tuned for new outreach events. Please visit our Envision page to le
 '
 intro: Join the women of UCSD SWE as we inspire future women in STEM.
 events:
-- image: https://i.imgur.com/3PTTM9D.jpg
-  title: Envision
+- image: https://i.imgur.com/bk3c3nz.jpg
+  title: Envision Conference
   intro: UCSD SWE's free all-day conference that aims to expose high school girls
     to career possibilities in engineering.
   url: 'http://ucsdenvision.wixsite.com/envision '
