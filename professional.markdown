@@ -18,12 +18,12 @@ events:
   intro: Join SWE and VMware on October 12th for an informational session regarding
     employment at VMware.
   url: "/"
-- image: "/uploads/123.jpg"
-  title: WE18
+- image: https://i.imgur.com/tvfQOdG.jpg
+  title: WE19
   intro: 'UCSD SWE will be returning to SWE National Conference to represent UC San
     Diego at the National level. If you are interested in joining us next year please
-    contact Payal Singh. '
-  url: mailto:pks007@ucsd.edu
+    contact Maria Galvez. '
+  url: mailto:mcgalvez@ucsd.edu
 layout: social
 ---
 
