@@ -14,7 +14,7 @@ events:
   title: Envision
   intro: UCSD SWE's Annual outreach Event
   url: 'http://ucsdenvision.wixsite.com/envision '
-- image: https://i.imgur.com/9hFdN8d.jpg
+- image: https://i.imgur.com/rpcTaTl.jpg
   title: Anita Borg Leadership and Engagement (ABLE) Program
   intro: UCSD SWE's High School Mentorship Program with SDSC and UCSD WIC
   url: http://girltechsandiego.org/opportunities/ucsd-anita-borg-leadership-and-engagement-able-program/
