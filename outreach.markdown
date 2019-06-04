@@ -12,7 +12,8 @@ intro: Join the women of UCSD SWE as we inspire future women in STEM.
 events:
 - image: https://i.imgur.com/3PTTM9D.jpg
   title: Envision
-  intro: UCSD SWE's Annual outreach Event
+  intro: 'UCSD SWE''s free all-day conference, held at the UC San Diego campus annually,
+    that exposes high school girls to career possibilities in science and technology. '
   url: 'http://ucsdenvision.wixsite.com/envision '
 - image: https://i.imgur.com/rpcTaTl.jpg
   title: Anita Borg Leadership and Engagement (ABLE) Program
