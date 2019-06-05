@@ -13,10 +13,9 @@ events:
   title: Professional Evening with Industry
   intro: Join SWE and the IDEA center diversity orgs on October 23rd, 2019 for an
     evening full of networking including a dinner and career fair.
-- image: "/uploads/SWE_Full_Master_Brand_COLOR.png"
-  title: VMware Information Session
-  intro: Join SWE and VMware on October 12th for an informational session regarding
-    employment at VMware.
+- image: https://i.imgur.com/oW5c6T0.jpg
+  title: Northrop Resume Review
+  intro: 
   url: "/"
 - image: https://i.imgur.com/tvfQOdG.jpg
   title: WE19
