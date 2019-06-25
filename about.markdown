@@ -34,18 +34,22 @@ officers:
   officer_name: 'Anne Cardenas '
   officer_title: Treasurer
   officer_url: mailto:a1carden@ucsd.edu
-- officer_image: https://i.imgur.com/0xYoKF6.jpg
-  officer_name: Maria Galvez
+- officer_image: https://i.imgur.com/gYGheeA.jpg
+  officer_name: Maria Andrade
   officer_title: Secretary
-  officer_url: 'mailto:mcgalvez@ucsd.edu '
-- officer_image: https://i.imgur.com/W3fjrW4.jpg
-  officer_name: Brea Torquato
-  officer_title: Outreach Co-Chair - Envision Lead
-  officer_url: mailto:btorquat@ucsd.edu
-- officer_image: https://i.imgur.com/VQ6dYDn.jpg
+  officer_url: mailto:mandrade@ucsd.edu
+- officer_image: https://i.imgur.com/GaHPYPQ.jpg
+  officer_name: Agnes Garcia
+  officer_title: Envision Outreach Chair
+  officer_url: mailto:atg004@ucsd.edu
+- officer_image: https://i.imgur.com/uDqIHtx.jpg
+  officer_name: Magali Chavez
+  officer_title: ABLE Outreach Chair
+  officer_url: mailto:mac180@ucsd.edu
+- officer_image: https://i.imgur.com/7joiTCv.jpg
   officer_name: Nidhi Bangari
-  officer_title: Outreach Co-Chair - ABLE/SWE Next Lead
-  officer_url: mailto:nbangari@ucsd.edu
+  officer_title: SWENext Outreach Chair
+  officer_url: 'mailto: nbangari@ucsd.edu'
 - officer_image: https://i.imgur.com/Izb2PaZ.jpg
   officer_name: Leslie Lopez
   officer_title: Academic Chair
