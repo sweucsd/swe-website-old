@@ -66,6 +66,10 @@ officers:
   officer_name: Natalie Lopez
   officer_title: Social Chair
   officer_url: mailto:N4lopez@ucsd.edu
+- officer_image: 
+  officer_name: " "
+  officer_title: 
+  officer_url: 
 layout: about
 ---
 
