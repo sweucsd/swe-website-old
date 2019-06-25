@@ -50,22 +50,22 @@ officers:
   officer_name: Nidhi Bangari
   officer_title: SWENext Outreach Chair
   officer_url: 'mailto: nbangari@ucsd.edu'
-- officer_image: https://i.imgur.com/Izb2PaZ.jpg
-  officer_name: Leslie Lopez
-  officer_title: Academic Chair
-  officer_url: mailto:ljlopez@ucsd.edu
-- officer_image: https://i.imgur.com/z56KzNz.jpg
-  officer_name: Yao Tong
-  officer_title: Project Team Coordinator
-  officer_url: mailto:yat014@ucsd.edu
-- officer_image: https://i.imgur.com/kaZmCVW.jpg
+- officer_image: https://i.imgur.com/0adO7RP.jpg
   officer_name: Sophie Huang
-  officer_title: Publicity Chair
+  officer_title: Academic Chair
   officer_url: mailto:soh024@ucsd.edu
-- officer_image: https://i.imgur.com/GU2byHc.jpg
-  officer_name: Magali Chavez
+- officer_image: https://i.imgur.com/Kc9mKsA.jpg
+  officer_name: Madina Arman
+  officer_title: Project Team Coordinator
+  officer_url: mailto:marman@ucsd.edu
+- officer_image: https://i.imgur.com/y0hJ4sH.jpg
+  officer_name: Elianor Shohet
+  officer_title: Publicity Chair
+  officer_url: mailto:eshohet@ucsd.edu
+- officer_image: https://i.imgur.com/XcMFcGL.jpg
+  officer_name: Natalie Lopez
   officer_title: Social Chair
-  officer_url: mailto:mac180@ucsd.edu
+  officer_url: mailto:N4lopez@ucsd.edu
 layout: about
 ---
 
