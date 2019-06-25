@@ -18,19 +18,19 @@ blurb: 'UC San Diego Society of Women Engineers is a diverse group of passionate
 '
 subtitle_2: SWE Officers
 officers:
-- officer_image: https://i.imgur.com/ne7APOc.jpg
-  officer_name: Jackie Villalobos
+- officer_image: https://i.imgur.com/DjlBbwM.jpg
+  officer_name: Brea Torquato
   officer_title: President
-  officer_url: mailto:j6villal@ucsd.edu
-- officer_image: https://i.imgur.com/TNKXNVT.jpg
-  officer_name: Bryn Henning
-  officer_title: Vice President External
-  officer_url: 'mailto:bhenning@ucsd.edu '
-- officer_image: https://i.imgur.com/yesO2qx.jpg
+  officer_url: mailto:btorquat@ucsd.edu
+- officer_image: https://i.imgur.com/BZZyXFo.jpg
   officer_name: Payal Singh
-  officer_title: Vice President Internal
+  officer_title: Vice President External
   officer_url: 'mailto:pks007@ucsd.edu '
-- officer_image: https://i.imgur.com/O7R0bJc.jpg
+- officer_image: https://i.imgur.com/Y6rOo3m.jpg
+  officer_name: Maria Galvez
+  officer_title: Vice President Internal
+  officer_url: 'mailto:mcgalvez@ucsd.edu '
+- officer_image: https://i.imgur.com/T5fttM0.jpg
   officer_name: 'Anne Cardenas '
   officer_title: Treasurer
   officer_url: mailto:a1carden@ucsd.edu
