@@ -18,7 +18,7 @@ events:
 - image: https://i.imgur.com/rpcTaTl.jpg
   title: Anita Borg Leadership and Engagement (ABLE) Program
   intro: UCSD SWE's High School Mentorship Program with SDSC and UCSD WIC
-  url: http://girltechsandiego.org/opportunities/ucsd-anita-borg-leadership-and-engagement-able-program/
+  url: http://education.sdsc.edu/studenttech/?page_id=678&fbclid=IwAR2iI0PWb1eCrpgwZDo8exwMBEVRJw0XmG9TeLnszwp9VwXnPuqjs8m9wX0
 layout: social
 ---
 
