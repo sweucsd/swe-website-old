@@ -28,7 +28,7 @@ defaults:
   values:
     layout: default
 destination: "./public_html"
-url: http://swe.ucsd.edu
+url: 
 baseurl: 
 permalink: pretty
 exclude:
